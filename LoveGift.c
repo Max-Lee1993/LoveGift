@@ -1,3 +1,7 @@
+ /*********************************************************
+这个程序稍加修改，可以作为逗妹子开心的小程序，原为撸主写给自己喜欢的妹子，，无赖妹子有对象
+故奉献给各位同行，如需帮助可联系我：1208205420@qq.com 
+*********************************************************/  
 #include<stdio.h>
 #include<windows.h>
 #include <time.h> 
@@ -21,7 +25,7 @@ void MessageBox_Fcn()
 		if((p->tm_hour)==9&&(p->tm_min)==0)
 		{
 			MessageBox(NULL , "早上好，","香香最棒",MB_YESNO);
-			ShellExecute(NULL, "open", "http://www.baidu.com", NULL, NULL, SW_MAXIMIZE);
+			ShellExecute(NULL, "open", "http://www.baidu.com", NULL, NULL, SW_MAXIMIZE);//上句执行完，按下确定，即自动打开一个网页 
 		} 
 
 		//10点弹出消息框	
@@ -115,7 +119,7 @@ int   SetAutoRun()//开机自动运行
         return TRUE;  
     }  
 }
-//主程序 
+//主程序  
 int main()
 {   
 	int i = 1; 
