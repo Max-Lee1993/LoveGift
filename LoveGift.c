@@ -1,6 +1,6 @@
  /*********************************************************
 这个程序稍加修改，可以作为逗妹子开心的小程序，原为撸主写给自己喜欢的妹子，，无赖妹子有对象
-故奉献给各位同行，if you need help，please contact me by e-mail：1208205420@qq.com 
+故奉献给各位dude，if you need help，please contact me by e-mail：1208205420@qq.com 
 *********************************************************/  
 #include<stdio.h>
 #include<windows.h>
